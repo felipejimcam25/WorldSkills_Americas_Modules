@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web de servicios en santiago">
+    <title>Servicios Santiago</title>
+    <link rel="stylesheet" href="../public/css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER DE LA APP -->
+    <header>
+        <h1 class="viewTitle" id="viewTitle"></h1>
+    </header>
+    <!-- HEADER DE LA APP -->
+
+    <nav class="navBottom" id="navBottom">
+        <button class="openNav" id="openNav">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+        </button>
+        <div class="navList" id="navList">
+            <button class="closeNav" id="closeNav">X</button>
+            <button data-view="parkings">🚗</button>
+            <button data-view="events">🎉</button>
+            <button data-view="weather">⛅</button>
+            <button data-view="fixed">📌</button>
+            <button data-view="settings">⚙️</button>
+        </div>
+    </nav>
+    
+    <main id="content">
+        <!-- AQUI VAN A APARECER LOS DATOS TRAIDOS DE LA API -->
+
+    </main>
+
+
+
+    <!-- CONEXION DE SCRIPTS -->
+
+    <script src="../public/js/parkings.js"></script>
+    <script src="../public/js/events.js"></script>
+    <script src="../public/js/weather.js"></script>
+    <script src="../public/js/fixed.js"></script>
+    <script src="../public/js/settings.js"></script>
+    <script src="../public/js/utils.js"></script>
+    <script src="../public/js/main.js"></script>
+
+</body>
+</html>

@@ -120,7 +120,7 @@ Particular attention was given to:
 
 ## 🏆 WorldSkills
 
-This project was developed as part of my preparation and participation in **WorldSkills Americas 2025 — Web Technologies**.
+This project was developed as part of my participation in **WorldSkills Americas 2025 — Web Technologies**.
 
 **Competition:** WorldSkills Americas 2025
 **Skill:** Web Technologies
